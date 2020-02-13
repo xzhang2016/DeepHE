@@ -9,4 +9,6 @@ For network features, please follow the instructions of [node2vec](https://githu
 ). 
 
 Command line usage:
-python main.py  <experiment name>  <fold>  <embedF>
+```
+$python main.py  <experiment name>  <fold>  <embedF>
+```
