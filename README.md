@@ -10,7 +10,7 @@ For network features, please follow the instructions of [node2vec](https://githu
 
 Command line usage:
 ```
-$main.py [--expName EXPNAME] [--fold FOLD] [--embedF EMBEDF]
+$python main.py [--expName EXPNAME] [--fold FOLD] [--embedF EMBEDF]
          [--data_dir DATA_DIR] [--trainProp TRAINPROP] [--repeat REPEAT]
          [--result_dir RESULT_DIR] [--numHiddenLayer NUMHIDDENLAYER]
 ```
