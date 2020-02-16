@@ -10,5 +10,16 @@ For network features, please follow the instructions of [node2vec](https://githu
 
 Command line usage:
 ```
-$python main.py  <experiment name>  <fold>  <embedF>
+$main.py [--expName EXPNAME] [--fold FOLD] [--embedF EMBEDF]
+         [--data_dir DATA_DIR] [--trainProp TRAINPROP] [--repeat REPEAT]
+         [--result_dir RESULT_DIR] [--numHiddenLayer NUMHIDDENLAYER]
 ```
+For more information about the parameters, you can type:
+```
+$python main.py --help
+```
+or
+```
+$python main.py -h
+```
+
